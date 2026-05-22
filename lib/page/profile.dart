@@ -19,7 +19,7 @@ class ProfilePage extends StatelessWidget {
                   width: double.infinity,
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('assets/sampul.jpg'),
+                      image: AssetImage('assets/sampulikan.jpg'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -35,7 +35,7 @@ class ProfilePage extends StatelessWidget {
                     backgroundColor: Colors.white,
                     child: const CircleAvatar(
                       radius: 50,
-                      backgroundImage: AssetImage('assets/profile.jpg'),
+                      backgroundImage: AssetImage('assets/profilnemo.jpg'),
                     ),
                   ),
                 ),

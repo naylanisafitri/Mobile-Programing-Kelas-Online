@@ -12,7 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DashboardPage(),
+      title: 'Mobile Programming Online',
+      theme: ThemeData(
+        primarySwatch: Colors.deepPurple,
+      ),
+      home: const DashboardPage(),
     );
   }
 }

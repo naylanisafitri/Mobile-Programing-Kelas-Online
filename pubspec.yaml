@@ -13,6 +13,11 @@ dependencies:
     sdk: flutter
   salomon_bottom_bar: ^3.3.2
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
 flutter:
   uses-material-design: true
 
